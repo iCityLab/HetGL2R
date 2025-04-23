@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="map_modified.net.xml" />
+        <route-files value="od_route_map.odtrips.rou.xml" />
+    </input>
+
+    <output>
+        <write-license value="true" />
+        <tripinfo-output value="tripinfos514.xml" />
+        <fcd-output value="fcd514.xml" />
+    </output>
+    
+    <time>
+        <begin value="0" />
+        <end value="100" />
+    </time>
+    <time-to-teleport value="-1" />
+
+</configuration>
